@@ -127,12 +127,6 @@
               {
                 "params": [],
                 "type": "mean"
-              },
-              {
-                "params": [
-                  "* 0.039370"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -189,12 +183,6 @@
                   "10s"
                 ],
                 "type": "non_negative_derivative"
-              },
-              {
-                "params": [
-                  "* 0.039370"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -535,12 +523,6 @@
               {
                 "params": [],
                 "type": "mean"
-              },
-              {
-                "params": [
-                  "* 0.039370"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -601,12 +583,6 @@
               {
                 "params": [],
                 "type": "mean"
-              },
-              {
-                "params": [
-                  "* 0.039370"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -667,12 +643,6 @@
               {
                 "params": [],
                 "type": "mean"
-              },
-              {
-                "params": [
-                  "* 0.039370"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -733,12 +703,6 @@
               {
                 "params": [],
                 "type": "mean"
-              },
-              {
-                "params": [
-                  "* 0.039370"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -1092,12 +1056,6 @@
               {
                 "params": [],
                 "type": "distinct"
-              },
-              {
-                "params": [
-                  "* 0.62137"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -1202,12 +1160,6 @@
               {
                 "params": [],
                 "type": "mean"
-              },
-              {
-                "params": [
-                  "* 0.62137"
-                ],
-                "type": "math"
               }
             ]
           ],

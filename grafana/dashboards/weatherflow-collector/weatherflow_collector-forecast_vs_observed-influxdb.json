@@ -350,12 +350,6 @@
               {
                 "params": [],
                 "type": "mean"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -407,12 +401,6 @@
               {
                 "params": [],
                 "type": "mean"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],

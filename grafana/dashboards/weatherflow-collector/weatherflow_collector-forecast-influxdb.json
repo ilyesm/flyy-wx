@@ -880,12 +880,6 @@
               {
                 "params": [],
                 "type": "last"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -925,12 +919,6 @@
               {
                 "params": [],
                 "type": "last"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -2440,12 +2428,6 @@
               {
                 "params": [],
                 "type": "last"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -2497,12 +2479,6 @@
               {
                 "params": [],
                 "type": "last"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -3218,12 +3194,6 @@
               {
                 "params": [],
                 "type": "max"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -3275,12 +3245,6 @@
               {
                 "params": [],
                 "type": "min"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -3332,12 +3296,6 @@
               {
                 "params": [],
                 "type": "max"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -3389,12 +3347,6 @@
               {
                 "params": [],
                 "type": "min"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],

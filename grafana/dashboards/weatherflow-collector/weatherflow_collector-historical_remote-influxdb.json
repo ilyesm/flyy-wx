@@ -721,12 +721,6 @@
               {
                 "params": [],
                 "type": "max"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -772,12 +766,6 @@
               {
                 "params": [],
                 "type": "min"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -823,12 +811,6 @@
               {
                 "params": [],
                 "type": "max"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -874,12 +856,6 @@
               {
                 "params": [],
                 "type": "min"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -925,12 +901,6 @@
               {
                 "params": [],
                 "type": "max"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -976,12 +946,6 @@
               {
                 "params": [],
                 "type": "min"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -1027,12 +991,6 @@
               {
                 "params": [],
                 "type": "max"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -1078,12 +1036,6 @@
               {
                 "params": [],
                 "type": "min"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -1116,7 +1068,7 @@
           "measurement": "weatherflow_obs",
           "orderByTime": "ASC",
           "policy": "default",
-          "query": "SELECT max(\"delta_t\") + max(\"wet_bulb_temperature\") * 9/5 + 32 FROM \"weatherflow_obs\" WHERE (\"collector_type\" =~ /^$collector_type$/ AND \"station_name\" =~ /^$station_name$/) AND $timeFilter GROUP BY time($__interval) tz('$tz')",
+          "query": "SELECT max(\"delta_t\") + max(\"wet_bulb_temperature\") FROM \"weatherflow_obs\" WHERE (\"collector_type\" =~ /^$collector_type$/ AND \"station_name\" =~ /^$station_name$/) AND $timeFilter GROUP BY time($__interval) tz('$tz')",
           "rawQuery": true,
           "refId": "G",
           "resultFormat": "time_series",
@@ -1131,12 +1083,6 @@
               {
                 "params": [],
                 "type": "min"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -1169,7 +1115,7 @@
           "measurement": "weatherflow_obs",
           "orderByTime": "ASC",
           "policy": "default",
-          "query": "SELECT min(\"delta_t\") + min(\"wet_bulb_temperature\") * 9/5 + 32 FROM \"weatherflow_obs\" WHERE (\"collector_type\" =~ /^$collector_type$/ AND \"station_name\" =~ /^$station_name$/) AND $timeFilter GROUP BY time($__interval) tz('$tz')",
+          "query": "SELECT min(\"delta_t\") + min(\"wet_bulb_temperature\") FROM \"weatherflow_obs\" WHERE (\"collector_type\" =~ /^$collector_type$/ AND \"station_name\" =~ /^$station_name$/) AND $timeFilter GROUP BY time($__interval) tz('$tz')",
           "rawQuery": true,
           "refId": "H",
           "resultFormat": "time_series",
@@ -1184,12 +1130,6 @@
               {
                 "params": [],
                 "type": "min"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -1235,12 +1175,6 @@
               {
                 "params": [],
                 "type": "max"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -1286,12 +1220,6 @@
               {
                 "params": [],
                 "type": "min"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -1337,12 +1265,6 @@
               {
                 "params": [],
                 "type": "max"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -1388,12 +1310,6 @@
               {
                 "params": [],
                 "type": "min"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -1896,12 +1812,6 @@
               {
                 "params": [],
                 "type": "max"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -1947,12 +1857,6 @@
               {
                 "params": [],
                 "type": "min"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -2110,12 +2014,6 @@
               {
                 "params": [],
                 "type": "max"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -2161,12 +2059,6 @@
               {
                 "params": [],
                 "type": "min"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -2325,12 +2217,6 @@
               {
                 "params": [],
                 "type": "max"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -2376,12 +2262,6 @@
               {
                 "params": [],
                 "type": "min"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -2540,12 +2420,6 @@
               {
                 "params": [],
                 "type": "max"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -2591,12 +2465,6 @@
               {
                 "params": [],
                 "type": "min"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -2755,12 +2623,6 @@
               {
                 "params": [],
                 "type": "max"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
@@ -2806,12 +2668,6 @@
               {
                 "params": [],
                 "type": "min"
-              },
-              {
-                "params": [
-                  "* 9/5 + 32"
-                ],
-                "type": "math"
               }
             ]
           ],
