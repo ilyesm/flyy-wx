@@ -9,6 +9,8 @@ services:
       published: 3000
       target: 3000
     restart: always
+    networks:
+      - t2_proxy
     volumes:
     - wxfdashboardsaio-grafana-data:/var/lib/grafana
     labels:
