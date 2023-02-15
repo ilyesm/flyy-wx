@@ -14,15 +14,14 @@ services:
     labels:
       - "traefik.enable=true"
       ## HTTP Routers
-      - "traefik.http.routers.snipeit-rtr.entrypoints=https"
-      - "traefik.http.routers.snipeit-rtr.rule=Host(`wx.flyy.pt`)"
-      - "traefik.http.routers.snipeit-rtr.tls=true"
+      - "traefik.http.routers.flyywx-rtr.entrypoints=https"
+      - "traefik.http.routers.flyywx-rtr.rule=Host(`wx.flyy.pt`)"
+      - "traefik.http.routers.flyywx-rtr.tls=true"
       ## Middlewares
-      - "traefik.http.routers.snipeit-rtr.middlewares=chain-no-auth@file"
+      - "traefik.http.routers.flyywx-rtr.middlewares=chain-no-auth@file"
       ## HTTP Services
-      - "traefik.http.routers.snipeit-rtr.service=snipeit-svc"
-      - "traefik.http.services.snipeit-svc.loadbalancer.server.port=80"
-      - "com.centurylinklabs.watchtower.enable=false"
+      - "traefik.http.routers.flyywx-rtr.service=flyywx-svc"
+      - "traefik.http.services.flyywx-svc.loadbalancer.server.port=80"
   wxfdashboardsaio_influxdb:
     container_name: wxfdashboardsaio_influxdb
     environment:
