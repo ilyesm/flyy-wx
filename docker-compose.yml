@@ -15,7 +15,7 @@ services:
       - "traefik.enable=true"
       ## HTTP Routers
       - "traefik.http.routers.snipeit-rtr.entrypoints=https"
-      - "traefik.http.routers.snipeit-rtr.rule=Host(`wx.flyy.aero`)"
+      - "traefik.http.routers.snipeit-rtr.rule=Host(`wx.flyy.pt`)"
       - "traefik.http.routers.snipeit-rtr.tls=true"
       ## Middlewares
       - "traefik.http.routers.snipeit-rtr.middlewares=chain-no-auth@file"
